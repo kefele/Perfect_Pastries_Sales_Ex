@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+  .container{
+    display: flex;
+    
+    height: 170px
+  }
+header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+p{
+  color: #69696a;
+  display: block;
+  float: left;
+ }
+
+  .container a{
+    text-decoration-line: none;
+    color: #69696a;
+    padding: 10px;
+
+    
+
+  }
+
+  
+  nav{
+   display: block;
+    background-color: #1a2033;
+    justify-content: flex-end;
+    
+    
+  }
+
+  
+
+  .info{
+    float: left;
+    width: 45%;
+    border-left-style: solid;
+    border-left-color: #69696a;
+  }
+
+  .graphic{
+    left: 2%;
+    float: right;
+    position: relative;
+    width: 45%;
+  }
+
+  .content{
+    height: 350px;
+  }
+
+  .scroll{
+    position: relative;
+    top: 50%;
+    transform: translateX(500%);
+
+  }
+
+ 
+
+
+  button{
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #000;
+    color: #f9fafc
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1{
+  text-align: center;
+  background: cornflowerblue;
+}
