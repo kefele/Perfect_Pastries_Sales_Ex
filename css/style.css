@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 
+  body{
+    padding: 15px 35px;
+    background: rgb(231, 241, 240)
+
+  }
 
   .container{
     display: flex;
@@ -14,16 +19,20 @@ header{
   justify-content: space-between;
   
 }
-p{
-  color: #69696a;
+.logo{
+  color: #020231;
   display: block;
   float: left;
+  font-size: 90px;
+  background: rgb(120, 164, 231);
  }
 
   .container a{
     text-decoration-line: none;
-    color: #69696a;
+    color: #04040e;
     padding: 10px;
+    font-size: 24px;
+    background: rgb(90, 126, 247);
 
     
 
