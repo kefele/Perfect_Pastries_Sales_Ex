@@ -10,12 +10,13 @@
 
   .container{
     display: flex;
-    
+    background: #1f7cf7;
     height: 170px
   }
 header{
   display: flex;
   width: 100%;
+  
   justify-content: space-between;
   
 }
@@ -24,15 +25,15 @@ header{
   display: block;
   float: left;
   font-size: 90px;
-  background: rgb(120, 164, 231);
+  
  }
 
   .container a{
     text-decoration-line: none;
-    color: #04040e;
-    padding: 10px;
+    color: #f0f6fa;
+    padding: 6px;
     font-size: 24px;
-    background: rgb(90, 126, 247);
+ 
 
     
 
