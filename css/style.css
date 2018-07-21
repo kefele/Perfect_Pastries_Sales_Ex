@@ -11,7 +11,7 @@
   .container{
     display: flex;
     background: #1f7cf7;
-    height: 170px
+    height: 130px
   }
 header{
   display: flex;
@@ -25,7 +25,7 @@ header{
   display: block;
   float: left;
   font-size: 90px;
-  
+  background-image: url("images/choccookiescreamcupcakes3_bakedbyrachel.jpg"); 
  }
 
   .container a{
@@ -42,10 +42,57 @@ header{
   
   nav{
    display: block;
-    background-color: #1a2033;
+   overflow: hidden;
+    
     justify-content: flex-end;
     
     
+  }
+  .dropdown{
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  nav a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(30, 5, 71);
+  }
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #210868;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+  }
+  .dropdown-content a {
+    float: none;
+    color:  #f0f6fa;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgb(30, 5, 71);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 
   
